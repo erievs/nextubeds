@@ -11,6 +11,7 @@
 #include "youtube_apikey.h"
 #include "rapidjson/document.h"
 #include "util.h"
+#include "asprintf.h"
 
 using namespace rapidjson;
 
@@ -280,9 +281,9 @@ char* YT_Search_GetURL(char* query, int resultsPerPage, char* pageToken)
 	free(query2);
 	char* url = NULL;
 	if(pageToken == NULL)
-		asprintf(&url, "https://www.googleapis.com/youtube/v3/search?part=snippet&q=%s&type=video&maxResults=%d&key=%s", query3, resultsPerPage, youtube_apikey);
+		asprintf(&url, "https://www.googleapis.com/youtube/v3/search?part=snippet&q=%s&type=video&maxResults=%d", query3, resultsPerPage);
 	else 
-		asprintf(&url, "https://www.googleapis.com/youtube/v3/search?part=snippet&q=%s&type=video&maxResults=%d&pageToken=%s&key=%s", query3, resultsPerPage, pageToken, youtube_apikey);
+		asprintf(&url, "https://www.googleapis.com/youtube/v3/search?part=snippet&q=%s&type=video&maxResults=%d&pageToken=%s", query3, resultsPerPage, pageToken);
 	char* url2 = url_encode(url);
 	free(url);
 	char* url3 = NULL;
