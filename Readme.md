@@ -4,6 +4,14 @@ YoutubeDS makes it possible to play Youtube videos on the ds.
 
 not yet, cannot get it to boot on a real ds
 
+# my changes are shit
+
+yes, with the power of google I was able to build it but I only know C#/Java/PHP/JS/CSS/HTML 
+
+# why
+
+why not
+
 [![Youtube DS](http://img.youtube.com/vi/NL1321zp1HI/0.jpg)](http://www.youtube.com/watch?v=NL1321zp1HI)
 
 The following libraries are used:
