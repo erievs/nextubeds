@@ -1,5 +1,9 @@
 YoutubeDS makes it possible to play Youtube videos on the ds.
 
+# does it work
+
+not yet, cannot get it to boot on a real ds
+
 [![Youtube DS](http://img.youtube.com/vi/NL1321zp1HI/0.jpg)](http://www.youtube.com/watch?v=NL1321zp1HI)
 
 The following libraries are used:
