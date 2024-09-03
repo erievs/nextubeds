@@ -12,6 +12,16 @@ yes, with the power of google I was able to build it but I only know C#/Java/PHP
 
 why not
 
+# credits
+
+Gericom (YouTube-DS Creator)
+
+DX (YT2009 creator)
+
+YouYube/Google
+
+Me
+
 # make sure NexTube is setup
 
 https://github.com/erievs/yt2009-wii
